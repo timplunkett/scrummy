@@ -8,3 +8,4 @@ npm-debug.log
 # Sublime Text project files:
 *.sublime-*
 
+dist
