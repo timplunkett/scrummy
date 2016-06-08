@@ -1,19 +1,8 @@
 {
   "name": "scrummy",
   "description": "A Scrum planning and estimation game from Four Kitchens",
-  "version": "1.7.0",
-  "scripts": {
-    "start": "node scrum_cards_server.js"
-  },
-  "dependencies": {
-    "npm": "~1.1.71",
-    "express": "~3.1.2",
-    "socket.io": "~0.9.16",
-    "yargs": "~1.2.1"
-  },
-  "engines": {
-    "node": "0.8.x"
-  },
+  "version": "2.0.0",
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/tsmith512/scrummy.git"
