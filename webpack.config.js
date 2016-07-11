@@ -15,6 +15,10 @@ const config = {
           'babel',
         ],
       },
+      {
+        test: /\.scss$/,
+        loaders: ['style', 'css', 'sass', 'resolve-url'],
+      },
     ],
   },
   plugins: [
