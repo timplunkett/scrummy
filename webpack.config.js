@@ -1,6 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const config = {
+module.exports = {
   entry: './src/index.js',
   output: {
     path: `${__dirname}/dist`,
@@ -30,4 +30,3 @@ const config = {
   ],
 };
 
-module.exports = config;
