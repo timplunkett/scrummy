@@ -20,6 +20,7 @@
     "playscrummy.com"
   ],
   "devDependencies": {
+    "autoprefixer": "^6.3.7",
     "babel-cli": "^6.9.0",
     "babel-core": "^6.9.1",
     "babel-loader": "^6.2.4",
@@ -38,6 +39,7 @@
     "eslint-plugin-react": "^5.1.1",
     "html-webpack-plugin": "^2.19.0",
     "node-sass": "^3.8.0",
+    "postcss-loader": "^0.9.1",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "resolve-url-loader": "^1.4.4",

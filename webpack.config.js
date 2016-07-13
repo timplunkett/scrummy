@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const autoprefixer = require('autoprefixer');
 
 module.exports = {
   entry: './src/index.js',
@@ -17,10 +18,11 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        loaders: ['style', 'css', 'sass'],
+        loaders: ['style', 'css', 'postcss', 'sass'],
       },
     ],
   },
+  postcss: () => [autoprefixer],
   plugins: [
     new HtmlWebpackPlugin({
       template: 'src/index.html',
